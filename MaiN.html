@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hack0R:H8lp</title>
+    <style>
+        body {
+            background-color: black;
+            color: green
+        }
+    </style>
+
+</head>
+<body>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("passwordBox")
+            var passwordText = password.value;
+            if(passwordText == "Help","help") {
+                return true;
+            }
+            alert("UNKNOWN COMMAND");
+            return false    
+        }
+    </script>
+
+    <p>T8RmiNaL</p>
+    <p>Testing input:<input id="passwordBox" type="text"/></p>                   
+    <a href="help.html" onclick="return checkPassword();">
+        Enter
+    </a>
+
+    <a href="DataBase.html" >
+        DataCheck
+    </a>
+    
+</body>
+</html>
